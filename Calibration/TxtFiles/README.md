@@ -1,6 +1,6 @@
 # Jet energy correction files
 
-Each branch corresponds to a payload in (conddb)[https://cms-conddb.cern.ch/cmsDbBrowser/].
+Each branch corresponds to a payload in [conddb](https://cms-conddb.cern.ch/cmsDbBrowser/).
 
 Search for branch name, go to tags and click on the matching payload name to get more information. In each branch, txt files are what is used to create db files with the config JetCorrectionDBWriter_cfg.py. The db file, the name of which can be found from the python config is also in the same location. In addition there is a db file and a txt file with matching name starting as "JetCorrectorParametersCollection", these files are used to upload the corrections to conddb, with the uploadConditions.py.
 
